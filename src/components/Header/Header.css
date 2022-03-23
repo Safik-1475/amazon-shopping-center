@@ -1,0 +1,32 @@
+/*====================================
+            Global styles
+ =====================================*/
+.container{
+    max-width:1180px;
+    margin:0 auto;
+}
+
+/*======== Header =========*/
+.header{
+    background-color:#1C2B35;
+    padding:20px 0px;
+}
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-left:120px;
+    padding-right:120px;
+}
+.navbar .menu a {
+    text-decoration:none;
+    margin-left:25px;
+    font-size:17px;
+    color:#ffffff; 
+    text-transform:capitalize;
+    transition:.3s ease-in-out;
+}
+
+.navbar .menu a:hover{
+    color:orange
+}
